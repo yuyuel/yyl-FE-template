@@ -1,29 +1,42 @@
-# yhsd
+# 快速启动模板
 
-## Project setup
+基于vue-cli3.o，集成vue-router，vueX，axios。
+
+## 安装
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 开发环境
 ```
-yarn run serve
+yarn run dev
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 yarn run build
 ```
 
-### Run your tests
+### 测试
 ```
 yarn run test
 ```
 
-### Lints and fixes files
+### Lints
 ```
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 相关集成
+
+### svg-icon
+
+在阿里巴巴矢量图库，下载svg格式icon。导入src/icons/svg,即可使用，使用方式`<svg-icon icon-class="xxx" />`
+
+[阿里巴巴矢量图库](https://www.iconfont.cn/)
+
+### plopfile
+
+通过运行`npm run new `来新建component或者view.创建基本模板。可进行进一步的配置。
+
+[plopfile](https://github.com/amwmedia/plop)
