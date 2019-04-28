@@ -48,6 +48,9 @@ module.exports = {
         symbolId: 'icon-[name]'
       })
       .end()
+    // less配置
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+    types.forEach(type => addStyleResource(config.module.rule('less').oneOf(type)))
 
     // source-map配置
     config
@@ -89,4 +92,14 @@ module.exports = {
         }
       )
   }
+}
+
+function addStyleResource(rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, 'src/styles/index.less') // 全局导入的less
+      ]
+    })
 }

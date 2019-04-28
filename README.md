@@ -40,3 +40,11 @@ yarn run lint
 通过运行`npm run new `来新建component或者view.创建基本模板。可进行进一步的配置。
 
 [plopfile](https://github.com/amwmedia/plop)
+
+### 数据模拟
+
+使用[Easy Mock](https://easy-mock.com/)生成一些随机数据，具体写法可参考[Mock.js文档](http://mockjs.com/examples.html)
+
+### css配置
+
+配置了less与postcss,引入px-to-viewport的解决方案，移动端设计，设计为以750px宽度为基准
