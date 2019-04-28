@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="@/assets/logo.png">
     <HelloWorld msg="Here we go !" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import '@/icons/svg/bug.svg'
+import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: { HelloWorld },
+  mounted() {
+    console.log(this.$router)
   }
 }
 </script>

@@ -34,7 +34,4 @@ li {
   color: #42b983;
   font-size: 50px;
 }
-.hello {
-  transform: translate(10, 10)
-}
 </style>
