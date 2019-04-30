@@ -11,7 +11,7 @@ export default {
   props: {
     msg: {
       type: String,
-      default: 'Here we go'
+      default: 'Here we go !!!'
     }
   }
 }

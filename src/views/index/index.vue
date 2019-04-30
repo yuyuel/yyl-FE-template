@@ -1,13 +1,16 @@
 <template>
   <div>
-    {{ a }}
+    <img alt="Vue logo" src="@/assets/logo.png">
+    <HelloWorld />
   </div>
 </template>
 
 <script>
-// import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
+
 export default {
   name: 'Index',
+  components: { HelloWorld },
   props: {},
   data() {
     return {

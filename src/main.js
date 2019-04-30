@@ -4,11 +4,13 @@ import router from './router'
 import store from './store'
 
 import './icons' // icon
+import '@/styles/index.less' // 全局样式
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  el: '#app',
   router,
-  store
-}).$mount('#app')
+  store,
+  render: h => h(App)
+})
