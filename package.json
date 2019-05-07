@@ -10,8 +10,10 @@
     "new": "plop"
   },
   "dependencies": {
+    "animate.css": "^3.7.0",
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
+    "dayjs": "^1.8.13",
     "js-cookie": "^2.2.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",

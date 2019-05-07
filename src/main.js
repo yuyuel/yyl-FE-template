@@ -5,6 +5,7 @@ import store from './store'
 
 import './icons' // icon
 import '@/styles/index.less' // 全局样式
+import 'animate.css'
 
 Vue.config.productionTip = false
 

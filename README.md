@@ -48,3 +48,23 @@ yarn run lint
 ### css配置
 
 配置了less与postcss,引入px-to-viewport的解决方案，移动端设计，设计为以750px宽度为基准
+
+### animate.css
+
+[animate.css文档](https://daneden.github.io/animate.css/)
+
+结合vue.js的transition,写enter-active-class和leave-active-class即可
+```
+<transition
+      enter-active-class="animated tada"
+      leave-active-class="animated bounceOutRight">
+</transition>
+```
+
+### day.js
+
+[day.js](https://github.com/iamkun/dayjs/blob/dev/docs/zh-cn/README.zh-CN.md)方便解析日期用的
+
+### video.js 
+
+[video.js](https://github.com/videojs/video.js)开源的html5和flash视频播放器，支持自定义进度条、按钮以及工具栏的底色
